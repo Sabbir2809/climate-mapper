@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Climate Mapper
 
-## Getting Started
+## Overview
 
-First, run the development server:
+The **Z-5 Climate Mapper** is an innovative 3D climate mapping educational game aimed at helping users, especially students, understand the complexities of global warming and its effects on the environment. By using real NASA climate data, this interactive platform allows users to visualize climate trends, explore environmental changes, and learn about potential solutions to reduce carbon emissions and mitigate global warming.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Interactive 3D Climate Simulations**: Visualize and interact with real-time climate data in 3D.
+- **Real NASA Climate Data Integration**: Access real satellite data to enhance climate understanding.
+- **Educational Phases**: A two-phase system that introduces users to climate change basics before exploring interactive solutions.
+- **User-Friendly Interface**: Intuitive navigation designed for both students and educators.
+- **Cross-Platform Compatibility**: Accessible on various platforms.
+- **Lesson Plans for Educators**: Comprehensive lesson plans and activities for integrating climate education into curricula.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Project Goals
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The **Z-5 Climate Mapper** aims to:
 
-## Learn More
+- Increase awareness about global warming and climate change.
+- Provide a deeper understanding of climate challenges and their global impact.
+- Empower informed decisions about sustainability and environmental protection.
+- Promote environmental consciousness and inspire climate action.
+- Equip educators with effective teaching tools and resources.
 
-To learn more about Next.js, take a look at the following resources:
+## How We Addressed the Challenge
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+We created a cross-platform game guiding users through two phases in each level:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. **Educational Phase**: Introduces critical concepts of climate change using 3D visualizations covering:
 
-## Deploy on Vercel
+   - Causes and contributors to global warming.
+   - Regional and global impacts of climate change.
+   - Climate solutions and mitigation strategies.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Interactive Exploration Phase**: Players explore various regions and ecosystems to understand climate challenges and solutions, experimenting with actions to visualize their impact on carbon emissions.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Additional Resources
+
+- **3D Climate Maps**: Explore a global climate map with real-time data visualization.
+- **NASA Climate Database**: Access detailed information about climate-related satellite missions from NASA.
+
+## Tech Stack
+
+The **Z-5 Climate Mapper** is built using:
+
+- **Next.js**: Frontend framework for building interactive UI components.
+- **Node.js**: Backend runtime environment for handling game logic and APIs.
+- **3D Visualization Framework**: Libraries for building immersive 3D climate maps and simulations.
+- **NASA API**: Integrated to fetch real-time satellite data for climate information.
