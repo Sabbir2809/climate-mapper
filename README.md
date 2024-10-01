@@ -2,49 +2,102 @@
 
 ## Overview
 
-The **Z-5 Climate Mapper** is an innovative 3D climate mapping educational game aimed at helping users, especially students, understand the complexities of global warming and its effects on the environment. By using real NASA climate data, this interactive platform allows users to visualize climate trends, explore environmental changes, and learn about potential solutions to reduce carbon emissions and mitigate global warming.
+The **Climate Mapper** is an innovative 3D climate mapping educational game aimed at helping users, especially students, understand the complexities of global warming and its effects on the environment. By utilizing real NASA climate data, this interactive platform allows users to visualize climate trends, explore environmental changes, and learn about potential solutions to reduce carbon emissions and mitigate global warming.
 
 ## Key Features
 
-- **Interactive 3D Climate Simulations**: Visualize and interact with real-time climate data in 3D.
-- **Real NASA Climate Data Integration**: Access real satellite data to enhance climate understanding.
-- **Educational Phases**: A two-phase system that introduces users to climate change basics before exploring interactive solutions.
+- **Interactive 3D Climate Simulations**: Users can visualize and interact with real-time climate data in 3D.
+- **NASA Climate Data Integration**: Access real satellite data from NASA to enhance climate understanding.
+- **Educational Phases**: A two-phase system introduces users to climate change basics before exploring interactive solutions.
 - **User-Friendly Interface**: Intuitive navigation designed for both students and educators.
-- **Cross-Platform Compatibility**: Accessible on various platforms.
-- **Lesson Plans for Educators**: Comprehensive lesson plans and activities for integrating climate education into curricula.
+- **Cross-Platform Compatibility**: Accessible on multiple platforms, making it available to a wide range of users.
+- **Lesson Plans for Educators**: Comprehensive lesson plans and activities designed to integrate climate education into the classroom.
 
 ## Project Goals
 
-The **Z-5 Climate Mapper** aims to:
+The **Climate Mapper** aims to:
 
-- Increase awareness about global warming and climate change.
+- Raise awareness about global warming and climate change.
 - Provide a deeper understanding of climate challenges and their global impact.
-- Empower informed decisions about sustainability and environmental protection.
+- Empower users to make informed decisions about sustainability and environmental protection.
 - Promote environmental consciousness and inspire climate action.
-- Equip educators with effective teaching tools and resources.
+- Equip educators with effective teaching tools and resources to educate about climate change.
 
 ## How We Addressed the Challenge
 
-We created a cross-platform game guiding users through two phases in each level:
+The game guides users through two phases in each level:
 
-1. **Educational Phase**: Introduces critical concepts of climate change using 3D visualizations covering:
+### 1. Educational Phase:
 
-   - Causes and contributors to global warming.
-   - Regional and global impacts of climate change.
-   - Climate solutions and mitigation strategies.
+Introduces critical concepts of climate change through 3D visualizations, covering:
 
-2. **Interactive Exploration Phase**: Players explore various regions and ecosystems to understand climate challenges and solutions, experimenting with actions to visualize their impact on carbon emissions.
+- Causes and contributors to global warming.
+- Regional and global impacts of climate change.
+- Potential solutions and mitigation strategies.
 
-### Additional Resources
+### 2. Interactive Exploration Phase:
 
-- **3D Climate Maps**: Explore a global climate map with real-time data visualization.
-- **NASA Climate Database**: Access detailed information about climate-related satellite missions from NASA.
+Players explore different regions and ecosystems to understand climate challenges and solutions. They can experiment with actions to visualize their impact on carbon emissions and the environment.
 
-## Tech Stack
+### Additional Resources:
 
-The **Z-5 Climate Mapper** is built using:
+- **3D Climate Maps**: Explore a global climate map with real-time data visualization to understand how various regions are affected.
+- **NASA Climate Database**: Access detailed information about climate-related satellite missions and data from NASA.
 
-- **Next.js**: Frontend framework for building interactive UI components.
-- **Node.js**: Backend runtime environment for handling game logic and APIs.
-- **3D Visualization Framework**: Libraries for building immersive 3D climate maps and simulations.
-- **NASA API**: Integrated to fetch real-time satellite data for climate information.
+## Technology Stack
+
+The **Climate Mapper** is built using the following technologies:
+
+- **Next.js**: A React-based framework used for building full-stack web applications. We utilize React Components to build the user interface, and Next.js for server-side rendering and additional optimizations.
+- **3D Visualization Framework**: Libraries such as **Three.js** are used to create immersive 3D climate maps and simulations.
+- **NASA API**: The NASA API is integrated to fetch real-time satellite data for climate information and trends.
+
+## Installation and Setup
+
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/sabbir2809/climate-mapper.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd z5-climate-mapper
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) to view the project in the browser.
+
+## UI Screenshots
+
+1. **Home Page**:
+   ![Home Page](./ui/homePage.jpg)
+
+2. **Level Increase Page**:
+   ![Level Increase Page](./ui/levelIncrease.jpg)
+
+3. **Blog Page**:
+   ![Blog Page](./ui/blogPage.jpg)
+
+4. **Impact of Before and After Page**:
+   ![Impact of Before and After Page](./ui/impactOfBeforeAfter.jpg)
+
+## Agile Development Method
+
+We follow an agile development process to ensure continuous improvements and quick responses to feedback. The iterative process allows for frequent updates and alignment with the project goals, promoting collaboration among the development team.
+
+![Agile Development Method](./ui/agile.png)
