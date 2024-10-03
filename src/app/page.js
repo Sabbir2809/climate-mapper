@@ -23,20 +23,16 @@ const HomePage = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 p-5 flex flex-col items-center">
-      <h1 className="text-4xl font-bold mb-5 text-center text-green-700">
-        Z-5 Climate Mapper
-      </h1>
+      <h1 className="text-4xl font-bold mb-5 text-center text-green-700">Climate Mapper</h1>
       <p className="text-lg text-gray-600 text-center mb-8 max-w-lg">
-        Welcome to the Z-5 Climate Mapper! Join us on a journey to understand climate
-        change and take action to protect our planet.
+        Welcome to the Z-5 Climate Mapper! Join us on a journey to understand climate change and
+        take action to protect our planet.
       </p>
 
       {/* Game Section */}
       {gameStarted ? (
         <div className="bg-white shadow-lg rounded-lg p-6 mb-8 max-w-md text-center">
-          <h2 className="text-2xl font-semibold text-green-600 mb-4">
-            Simple Visual Game
-          </h2>
+          <h2 className="text-2xl font-semibold text-green-600 mb-4">Simple Visual Game</h2>
           <p className="text-gray-700 mb-4">
             Click the buttons to plant trees or collect water drops!
           </p>
@@ -55,9 +51,7 @@ const HomePage = () => {
           </div>
 
           <div className="mt-6">
-            <h3 className="text-lg font-semibold text-green-700">
-              Trees Planted: {treesPlanted}
-            </h3>
+            <h3 className="text-lg font-semibold text-green-700">Trees Planted: {treesPlanted}</h3>
             <h3 className="text-lg font-semibold text-blue-700">
               Water Collected: {waterCollected} liters
             </h3>
@@ -81,12 +75,8 @@ const HomePage = () => {
         </div>
       ) : (
         <div className="bg-white shadow-lg rounded-lg p-6 mb-8 max-w-md text-center">
-          <h2 className="text-2xl font-semibold text-green-600 mb-4">
-            Get Ready to Play!
-          </h2>
-          <p className="text-gray-700 mb-4">
-            Click the button below to start your journey.
-          </p>
+          <h2 className="text-2xl font-semibold text-green-600 mb-4">Get Ready to Play!</h2>
+          <p className="text-gray-700 mb-4">Click the button below to start your journey.</p>
           <button
             onClick={startGame}
             className="bg-green-600 text-white py-3 px-6 rounded-lg transition-colors duration-300 hover:bg-green-700 focus:outline-none">

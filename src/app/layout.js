@@ -1,6 +1,8 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import ReactQueryProvider from "@/providers/ReactQueryProvider";
 import localFont from "next/font/local";
+import { Toaster } from "react-hot-toast";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -15,7 +17,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Z-5 Climate Mapper",
+  title: "Climate Mapper",
   description: "Interactive climate mapping game",
 };
 
@@ -23,9 +25,23 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <Header />
-        <main className="container mx-auto p-4">{children}</main>
-        <Footer />
+        <ReactQueryProvider>
+          <Header />
+          <main className="container mx-auto p-4">{children}</main>
+          <Footer />
+          <Toaster
+            position="top-center"
+            containerStyle={{ bottom: "10%" }}
+            toastOptions={{
+              style: {
+                borderRadius: "5px",
+                //   background: "#333",
+                //   color: "#fff",
+                padding: "16px 24px",
+              },
+            }}
+          />
+        </ReactQueryProvider>
       </body>
     </html>
   );

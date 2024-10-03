@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Brand Section */}
         <div>
-          <h2 className="text-2xl font-bold">Z-5 Climate Mapper</h2>
+          <h2 className="text-2xl font-bold">Climate Mapper</h2>
           <p className="mt-2 text-gray-300">
             Helping to create a greener future through technology.
           </p>
@@ -82,7 +82,7 @@ const Footer = () => {
       </div>
 
       <div className="text-center mt-8">
-        <p className="text-sm">&copy; 2024 Z-5 Climate Mapper. All rights reserved.</p>
+        <p className="text-sm">&copy; 2024 Climate Mapper. All rights reserved.</p>
       </div>
     </footer>
   );
