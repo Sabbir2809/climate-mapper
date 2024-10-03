@@ -12,16 +12,15 @@ const Header = () => {
   return (
     <header className="bg-gradient-to-r from-green-500 to-green-700 p-6 shadow-lg text-white">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-3xl font-bold">Mapper</h1>
+        <Link href="/">
+          <h1 className="text-3xl font-bold">Climate Mapper</h1>
+        </Link>
         <div className="hidden md:flex space-x-4">
           <Link href="/" className="hover:underline">
             Home
           </Link>
           <Link href="/about" className="hover:underline">
             About
-          </Link>
-          <Link href="/game" className="hover:underline">
-            Game
           </Link>
           <Link href="/blog" className="hover:underline">
             Blog

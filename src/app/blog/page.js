@@ -55,7 +55,7 @@ export default function Blog() {
       {/* Blog Cards */}
       <div className="container mx-auto p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {data?.map((blog) => {
-          const isExpanded = expanded[blog?.date]; // Check if this post is expanded
+          const isExpanded = expanded[blog?.date];
 
           return (
             <div
@@ -64,11 +64,11 @@ export default function Blog() {
               {/* Image Section */}
               <div className="relative w-full h-48">
                 <Image
-                  src={blog?.hdurl || "/placeholder-image.jpg"} // Fallback to placeholder
+                  src={blog?.hdurl ?? ""}
                   alt={blog?.title}
-                  fill // Make image fully responsive
-                  objectFit="cover" // Ensure image covers the container
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" // Responsive sizes
+                  fill
+                  objectFit="cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="rounded-t-lg transition-transform duration-300 transform hover:scale-110"
                 />
               </div>
@@ -83,10 +83,7 @@ export default function Blog() {
 
                 {/* Explanation with "See More"/"See Less" */}
                 <p className="text-gray-700 text-sm leading-relaxed">
-                  {isExpanded
-                    ? blog?.explanation // Show full explanation if expanded
-                    : trimText(blog?.explanation, 20)}{" "}
-                  {/* Show trimmed explanation if not expanded */}
+                  {isExpanded ? blog?.explanation : trimText(blog?.explanation, 20)}{" "}
                 </p>
 
                 {/* Toggle Button */}
