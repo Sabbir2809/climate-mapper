@@ -22,8 +22,8 @@ const Header = () => {
           <Link href="/about" className="hover:underline">
             About
           </Link>
-          <Link href="/blog" className="hover:underline">
-            Blog
+          <Link href="/blogs" className="hover:underline">
+            Blogs
           </Link>
         </div>
         <div className="md:hidden">
@@ -64,8 +64,8 @@ const Header = () => {
           <Link href="/game" className="block hover:underline">
             Game
           </Link>
-          <Link href="/blog" className="block hover:underline">
-            Blog
+          <Link href="/blogs" className="block hover:underline">
+            Blogs
           </Link>
         </div>
       )}

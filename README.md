@@ -72,6 +72,18 @@ The **Climate Mapper** is built using the following technologies:
 4. **Impact of Before and After Page**:
    ![Impact of Before and After Page](./public/ui/impactOfBeforeAfter.jpg)
 
+## Web Implementation UI Screenshots
+
+1. **Home Page**:
+   ![Home Page](./public/ui/demo-home.png)
+
+1. **Blogs Page**:
+   ![Home Page](./public/ui/demo-blog.png)
+
+## API Integration
+
+APOD: https://api.nasa.gov/planetary/apod
+
 ## Installation and Setup
 
 To set up the project locally, follow these steps:
@@ -85,7 +97,7 @@ To set up the project locally, follow these steps:
 2. Navigate to the project directory:
 
    ```bash
-   cd z5-climate-mapper
+   cd climate-mapper
    ```
 
 3. Install dependencies:
