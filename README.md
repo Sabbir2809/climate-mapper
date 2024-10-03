@@ -80,9 +80,9 @@ The **Climate Mapper** is built using the following technologies:
 1. **Blogs Page**:
    ![Home Page](./public/ui/demo-blog.png)
 
-## API Integration
+## API Preview(Still Working on it)
 
-APOD: https://api.nasa.gov/planetary/apod
+Link: (https://climatemapper.netlify.app/)
 
 ## Installation and Setup
 
