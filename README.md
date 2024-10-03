@@ -82,7 +82,7 @@ The **Climate Mapper** is built using the following technologies:
 
 ## API Preview(Still Working on it)
 
-Link: (https://climatemapper.netlify.app/)
+Link: https://climatemapper.netlify.app/
 
 ## Installation and Setup
 
