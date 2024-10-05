@@ -19,11 +19,11 @@ const Header = () => {
           <Link href="/" className="hover:underline">
             Home
           </Link>
-          <Link href="/about" className="hover:underline">
-            About
-          </Link>
           <Link href="/blogs" className="hover:underline">
             Blogs
+          </Link>
+          <Link href="/about" className="hover:underline">
+            About
           </Link>
         </div>
         <div className="md:hidden">
@@ -58,14 +58,11 @@ const Header = () => {
           <Link href="/" className="block hover:underline">
             Home
           </Link>
-          <Link href="/about" className="block hover:underline">
-            About
-          </Link>
-          <Link href="/game" className="block hover:underline">
-            Game
-          </Link>
           <Link href="/blogs" className="block hover:underline">
             Blogs
+          </Link>
+          <Link href="/about" className="block hover:underline">
+            About
           </Link>
         </div>
       )}
